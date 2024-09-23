@@ -1,0 +1,96 @@
+@font-face {
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+.paragraph{
+    text-align: center;
+    font-size: 60px;
+    font-family:sans-serif;
+    color: rgb(38, 13, 227);
+}
+.paragraph2{
+    text-align:center;
+    font-size: 40px;
+    font-family: nos;
+    color: rgb(71, 13, 208);
+}
+.menu-bar
+{
+text-align:center;
+background-color: #d2163f;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:rgb(255, 255, 255)
+}
+.menu-bar ul li
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size-adjust: 40px;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 25px;
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background: floralwhite;
+    color: #000000;
+    border-radius:3px;
+}
+.paragraph5{
+    font-size: 20px;
+    font-family:Courier;
+    margin: 30px;
+    color: rgb(19, 0, 0);
+}
+
+
+
+.lets-go-btn{
+    color: rgb(99, 32, 187);
+    background: rgb(169, 235, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px; 
+}
+.lets-go-btn:hover{
+    background: rgb(18, 142, 231);
+}
+
+.socialIcons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    
+}
+
+.socialIcons a { margin-right:75px; }
+
+.socialIcons :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color:rgb(233, 108, 108);
+    margin-top:28%;
+}
+.p1{
+    color: rgb(112, 57, 189);
+    font-size: larger;
+    padding-bottom: 10px;
+    
+}
